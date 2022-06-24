@@ -1,3 +1,46 @@
-div {
+.insights {
     flex: 1;
+    padding: 30px 50px 0 ;
+    margin: 0;
+}
+.insights h2 {
+    font-size: 40px;
+}
+.insights h2,
+.insights p {
+    margin-bottom: 20px;
+}
+.insights h2 span {
+    color: #9E55CA;
+    font-weight: 700;
+}
+.insights p {
+    letter-spacing: 1.2px;
+    line-height: 1.9;
+}
+.insights p,
+.insights .quantity .box span {
+    color: #7E7C94;
+}
+.insights .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+}
+.insights .quantity h3 {
+    font-weight: 600;
+}
+@media screen and (max-width: 991px) {
+    .insights {
+        padding-bottom: 30px;
+    }
+    .insights .quantity {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    .insights .quantity .box:not(:last-child) {
+        margin-bottom: 20px;
+    }
 }
