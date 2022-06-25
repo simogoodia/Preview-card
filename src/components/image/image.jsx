@@ -3,7 +3,7 @@ import "./style.css";
 function Img() {
     return (
         <div className="img">
-            <img src="../../../global/images/image-header-desktop.jpg" />
+            <img src="./images/image-header-desktop.jpg" />
         </div>
     );
 }
